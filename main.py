@@ -6,10 +6,10 @@ def main(Language: str, AppID: str = "SG-AP-0001", UserType: str = "一般使用
     # 修正：宣告變數時需要賦值或使用 None
     UserRole: str = ""  # 初始化變數
     
-    if UserType == "應用系統管理員33":
+    if UserType == "應用系統管理員3":
         UserRole = "SysManual"
     else:
-        UserRole = "Manual"
+        UserRole = "Manual2"
     
     return {
         "Language": Language,
